@@ -1,11 +1,12 @@
 # ReformIR
+<img src="reformir_logo.png" alt="drawing" width="300"/>
+
 
 This repo contains the code , generated reformulations (under data/) and run files (under runs/) to reproduce the main results.
 
 ReformIR helps reduce drift in reformulations by prioritzing reformulations and documents. ReformIR is also interpretable and
 and example is given below:
 
-<!-- <img src="qual_example.png" alt="drawing" width="300"/> -->
 
 # Steps
 1. First create a conda environment : conda create -n ReformIR python=3.11
