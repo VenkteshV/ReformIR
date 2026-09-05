@@ -1,6 +1,17 @@
-# ReformIR. <img src="reformir_logo.png" alt="drawing" width="700"/>
+<p align="center">
+  <img src="reformir_logo.png" width="480" alt="ReformIR logo">
+</p>
 
+<h1 align="center">ReformIR</h1>
+<p align="center"><b>When More Reformulations Hurt: Avoiding Drift using Ranker Feedback</b></p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.00560">Paper</a> ·
+  <a href="https://arxiv.org/html/2605.00560v1">HTML</a> ·
+  <a href="#citation">Citation</a>
+</p>
+
+---
 
 This repo contains the code , generated reformulations (under data/) and run files (under runs/) to reproduce the main results.
 
