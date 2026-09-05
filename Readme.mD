@@ -15,6 +15,21 @@
 
 This repo contains the code , generated reformulations (under data/) and run files (under runs/) to reproduce the main results.
 
+## Overview
+
+Query reformulation improves recall, but naively merging or exhaustively reranking many reformulations is expensive: and indiscriminate expansion causes **query drift**, where reformulated queries stray from the user's original intent.
+
+**ReformIR** is a budget-aware retrieval framework that treats query reformulations as first-class features and learns which ones to trust using feedback from a strong reranker, anchored to the original query. Under a fixed reranking budget, it:
+
+- Builds a large candidate pool from multiple reformulated queries
+- Learns a lightweight **linear surrogate model** over reformulation-specific retrieval signals (BM25 per reformulation + RM3)
+- Uses a **bandit-style optimization loop** to spend limited reranker calls on the most promising documents
+- Anchors all reranker feedback to the **original query**, actively suppressing drift
+
+The result: consistently higher recall than existing reformulation strategies, especially as the number of reformulations grows — a regime where prior methods degrade sharply.
+
+
+
 ReformIR helps reduce drift in reformulations by prioritzing reformulations and documents. ReformIR is also interpretable and
 and example is given below:
 
