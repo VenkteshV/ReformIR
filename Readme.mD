@@ -1,5 +1,5 @@
-# ReformIR
-<img src="reformir_logo.png" alt="drawing" width="300"/>
+# ReformIR. <img src="reformir_logo.png" alt="drawing" width="300"/>
+
 
 
 This repo contains the code , generated reformulations (under data/) and run files (under runs/) to reproduce the main results.
