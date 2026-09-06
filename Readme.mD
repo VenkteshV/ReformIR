@@ -92,3 +92,8 @@ location = {Australia},
 series = {SIGIR '26}
 }
 ```
+
+## Acknowledgments
+
+This work was partially funded by the Bundesministerium für Wirtschaft und Energie (BMWE), Germany (8ra Initiative "Soofi", 13IPC040E), and by the European Union's Horizon Europe Research and Innovation Programme JustREACH (Grant Agreement No. 101214666). Experiments were supported by NAISS (Swedish Research Council grant 2022-06725) and the Zeus cluster at Stockholm University, DSV.
+
