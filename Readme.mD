@@ -39,6 +39,11 @@ and example is given below:
 2. conda activate ReformIR
 3. Install dependencies: pip install -r requirements.txt
 
+```bash
+1. First create a conda environment : conda create -n ReformIR python=3.11
+2. conda activate ReformIR
+3 pip install -r requirements.txt
+```
 
 # To reproduce results 
 1. To reproduce the numbers in Tables 1 and 2 just specify the appropriate name in the run_dl19 or run_dl22 etc. script based on the test set you want to focus on.
