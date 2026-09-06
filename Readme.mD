@@ -28,6 +28,15 @@ Query reformulation improves recall, but naively merging or exhaustively reranki
 
 The result: consistently higher recall than existing reformulation strategies, especially as the number of reformulations grows — a regime where prior methods degrade sharply.
 
+## Repository structure
+
+```
+ReformIR/
+├── code/                # Core pipeline: indexing, reformulation, surrogate model, run scripts
+├── data/                # Pre-generated reformulations per method (GenQR, GenQREnsemble, Query2Doc, QA-Expand, ...)
+├── runs/reform/          # Saved run files for reproducing paper tables without regenerating reformulations
+└── requirements.txt
+```
 
 
 ReformIR helps reduce drift in reformulations by prioritzing reformulations and documents. ReformIR is also interpretable and
